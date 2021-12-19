@@ -1,0 +1,57 @@
+.card{
+    height: 14rem;
+    min-height: 225px;
+    min-width: 555px;
+    width: 40%;
+    padding-top: 1vh;
+    border-radius: 5px;
+    background-color: white;
+}
+/* Card upper where all the deatils are  */
+.up{
+    height: 76%;
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+}
+/* Left side style image */
+.left{
+    height: 100%;
+    width: 20%;
+    padding: 0px 2%;
+}
+.left>img{
+    height: 100%;
+    width: 96%;
+}
+/* right side style where the details are */
+.right{
+    width: 74%;
+    display: flex;
+    padding-right: 2%;
+    justify-content: space-between;
+}
+.right>div>*{
+    margin-bottom: 5px;
+}
+.right>div>h3{
+    background-color: yellowgreen;
+    text-align: center;
+}
+/* Down side style where order online is  */
+.down{
+    border-top: grey solid 1px;
+    height: 17%;
+    width: 100%;
+}
+.down>button{
+    height: 100%;
+    width: 30%;
+    float: right;
+    background-color:rgb(238, 235, 235);
+    border: none;
+    border-left: grey solid 1px;
+    font-size: 1rem;
+    color: green;
+    
+}
