@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Grilled Chicken",
+        "category": "breakfast",
+        "cost": "400",
+        "time": "30",
+        "ratings": "4.3",
+        "votes": "655",
+        "reviews": "700",
+        "payment": "online"
+    },
+    {
+        "name": "Grilled Chicken 2",
+        "category": "breakfast",
+        "cost": "200",
+        "time": "30",
+        "ratings": "2.3",
+        "votes": "655",
+        "reviews": "700",
+        "payment": "online"
+    },
+    {
+        "name": "Grilled Chicken 3",
+        "category": "breakfast",
+        "cost": "400",
+        "time": "60",
+        "ratings": "4.3",
+        "votes": "655",
+        "reviews": "700",
+        "payment": "online"
+    },
+    {
+        "name": "Grilled Chicken 4",
+        "category": "breakfast",
+        "cost": "400",
+        "time": "30",
+        "ratings": "4.3",
+        "votes": "655",
+        "reviews": "300",
+        "payment": "card"
+    },
+    {
+        "name": "Grilled Chicken 5",
+        "category": "dinner",
+        "cost": "400",
+        "time": "30",
+        "ratings": "4.3",
+        "votes": "100",
+        "reviews": "700",
+        "payment": "online"
+    },
+    {
+        "name": "Chicken curry ",
+        "category": "dinner",
+        "cost": "200",
+        "time": "30",
+        "ratings": "4.9",
+        "votes": "900",
+        "reviews": "700",
+        "payment": "upi"
+    }
+]

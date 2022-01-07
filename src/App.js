@@ -1,9 +1,10 @@
 import './App.css';
 import Resturent from './components/ResturentCard/Resturent';
+
 function App() {
   return (
     <div className="App">
-      <Resturent/>
+      <Resturent />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Card.module.css';
-const Card = () => {
+const Card = ({ data }) => {
+    const { name, category, cost, time, ratings, votes, reviews, payment } = data;
     return (
         <div className={style.card}>
             <div className={style.up}>
@@ -9,16 +10,16 @@ const Card = () => {
                 </div>
                 <div className={style.right}>
                     <div>
-                        <h2>Grilled Chicken</h2>
-                        <p>Continental, Pizza, Asian, Desserts</p>
-                        <p>it costs 400</p>
-                        <p>upto 30mis</p>
-                        <p>Accepts online payments only</p>
+                        <h2>{name}</h2>
+                        <p>{category}, Pizza, Asian, Desserts</p>
+                        <p>it costs {cost}</p>
+                        <p>upto {time} mis</p>
+                        <p>Accepts {payment} payments only</p>
                     </div>
                     <div>
-                        <h3>4.3</h3>
-                        <h5>766 votes</h5>
-                        <h5>544 review</h5>
+                        <h3>{ratings}</h3>
+                        <h5>{votes} votes</h5>
+                        <h5>{reviews} review</h5>
                     </div>
                 </div>
             </div>
